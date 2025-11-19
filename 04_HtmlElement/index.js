@@ -13,7 +13,7 @@ function pageLoaded() {
     txt1 = document.getElementById('txt1');
     txt2 = document.querySelector('#txt2');// we would get the same result idf we did like txt1 
     btn = document.getElementById('btnCalc');
-    lblRes = document.getElementById('lblRes');
+    lblRes = document.getElementById('lblres');
     btn.addEventListener('click', () => {
         calculate();
     })
