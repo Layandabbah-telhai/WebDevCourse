@@ -8,7 +8,7 @@ const PORT = 3000;
 app.use(express.urlencoded({ extended: true })); 
 
 // 2. Serve static files (CSS/HTML)
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'client')));
 
 // --- ROUTES ---
 
